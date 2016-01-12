@@ -1,0 +1,27 @@
+<template name="header">
+  <div class="navbar navbar-default" role="navigation">
+      <ul class="nav nav-pills">
+          <li id="heading" role="presentation">괴리성 밀리언 아서 기록저장소</li>
+      </ul>
+    <div class="navbar-collapse collapse">
+      <ul class="nav navbar-nav navbar-right">
+        {{> loginButtons}} <!-- here -->
+      </ul>
+    </div>
+      {{#if isLogin}}
+          <ul id="same" class="nav nav-pills">
+              <li id="master1" role="presentation"><a href="/masters1">부스터 카드</a></li>
+              <li id="master2" role="presentation"><a href="/masters2">괴리진화 카드</a></li>
+              <li id="master3" role="presentation"><a href="/masters3">메달 카드</a></li>
+              <li id="master4" role="presentation"><a href="/masters4">강적 카드</a></li>
+              <li id="master4" role="presentation"><a href="/">Home</a></li>
+              <li id="bolist" role="presentation"><a href="/bolist">자유 게시판</a></li>
+          </ul>
+      {{else}}
+          <ul class="nav nav-pills">
+              <li id="samenot">로그인해야 이용하실 수 있습니다</li>
+          </ul>
+      {{/if}}
+  </div>
+
+</template>

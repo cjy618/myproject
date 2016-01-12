@@ -1,0 +1,1 @@
+Router.route('/masters4', 'masters4');
