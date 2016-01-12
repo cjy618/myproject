@@ -1,18 +1,47 @@
 
 
-main {
+#stop {
   margin-top: 10px;
+  margin-left:200px;
 }
 
-footer {
-  background: #1dff31;
-  border-top: 2px solid #ffa0e3;
+#navimg1{
+
+  width: 180px;
+  left: 10px;
+  height: 100px;
+  background-image: url("http://cafefiles.naver.net/20160107_149/27960092_1452137984549_oNGjI4_jpg/27960092_user_123944.jpg");
+  background-size:cover;
+}
+
+#navimg2{
+
+  width: 180px;
+  left: 10px;
+  height: 100px;
+  /*background-image: url("images/inven.jpg");*/
+  background-size:cover;
+}
+
+#navwd{
   text-align: center;
+  font-weight: bold;
+  text-size: 20px;
+}
 
-  width: 100%;
-  height: 30px;
 
+footer {
   position: fixed;
   bottom: 0;
   left: 0;
+  width: 100%;
+  height: 30px;
+  background: #1dff31;
+  text-align: center;
+}
+nav{
+  margin-top: 10px;
+  position: absolute;
+  width:200px;
+  /*cursor:auto;*/
 }

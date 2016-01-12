@@ -19,7 +19,7 @@
             {{#each boards}}
                 <tr>
                     <td>{{글번호}}</td>
-                    <td><a href="/boardDetail/{{_id}}">{{제목}}</a></td>
+                    <td><a id="view" href="/boardDetail/{{_id}}">{{제목}}</a></td>
                     <td>{{작성자}}</td>
                     <td><button class="btn btn-danger" count="{{글번호}}" id="removeOneItem">x</button></td>
                     <td><button id="btnLike" class="btn btn-{{likeColor}}"><span class="glyphicon glyphicon-thumbs-up" aria-hidden="true"></span></button></td>
@@ -32,7 +32,7 @@
             <input type="text" class="form-control" id="제목" aria-describedby="basic-addon3">
         </div>
         <div class="input-group">
-            <span class="input-group-addon" id="basic-addon3">본문</span>
+            <span class="input-group-addon" id="basic-addon3">내용</span>
             <input type="text" class="form-control" id="본문" aria-describedby="basic-addon3">
         </div>
         <div class="center" style="text-align: center;">
@@ -44,5 +44,6 @@
 
         <input type="text" name="search" id="inpSearch"/>
         <button id="btnSearch">검색</button>
+        <br><br><br><br>
     </div>
 </template>

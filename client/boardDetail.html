@@ -1,28 +1,18 @@
 <template name="boardDetail">
 
-    <a href='/bolist'><button type="button" class="btn btn-success">뒤로 가기</button></a>
-
+    <div class="right" style="text-align: right;">
+        <a href='/bolist'>
+            <button type="button" class="btn btn-success">뒤로 가기</button>
+        </a>
+    </div>
+    <br><br>
     {{#with userObj}}
-        <tr class="active">글번호 : {{글번호}}</tr>
-        <tr class="active">작성자 : {{작성자}}</tr>
-        <tr class="active">제목 : {{제목}}</tr>
-        <tr class="success">내용 : {{본문}}</tr><br><br>
-            <tr>
-                <td>댓글</td>
-                <td>작성자</td>
-            </tr>
-        {{#each rep}}
-        <tr>
-            <td>{{aaa}}</td>
-            <td>{{bbb}}</td>
-        </tr>
-        {{/each}}
+        <li class="list-group-item list-group-item-success">글번호 : {{글번호}}</li>
+        <li class="list-group-item list-group-item-success">작성자 : {{작성자}}</li>
+        <li class="list-group-item list-group-item-success">제목 : {{제목}}</li>
+        <li class="list-group-item list-group-item-info">내용 : {{본문}}</li>
     {{/with}}
-    <tr class="center" style="text-align: center;">
-        <td><input type="text" id="댓글" placeholder="댓글"/></td>
-        <td><input type="text" id="작성자2" placeholder="작성자2"/></td>
-        <td><button id="reple" class="btn btn-success">댓글 작성</button></td>
-    </tr>
+
 
 
 </template>

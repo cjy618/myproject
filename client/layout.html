@@ -1,17 +1,30 @@
 <head>
-  <title>괴밀아 기록저장소</title>
+    <title>괴밀아 기록저장소</title>
 </head>
 
 <template name="layout">
-  <div class="container">
-    <header id="mainHeader">
-           {{> header}}
-    </header>
-    <main>
-      {{> yield}}
-    </main>
-    <footer>
-      최종 업데이트 : 15.12.31
-    </footer>
-  </div>
+    <div class="container">
+        <header id="mainHeader">
+            {{> header}}
+        </header>
+        <nav>
+            <a href="http://cafe.naver.com/ksmillionarthur" target="_blank">
+                <div id="navimg1"></div>
+                <div id="navwd">괴밀아 공식카페</div>
+            </a>
+            <br>
+            <a href="http://game.inven.co.kr/ksma" target="_blank">
+                <img src="images/inven.png" id="navimg2">
+                <div id="navwd">괴밀아 인벤</div>
+            </a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </nav>
+        <main id="stop">
+            {{> yield}}
+        </main>
+        <footer>
+            최종 업데이트 : 15.12.31
+        </footer>
+    </div>
 </template>
