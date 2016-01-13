@@ -4,6 +4,26 @@
   margin-top: 10px;
   margin-left:200px;
 }
+nav{
+  margin-top: 10px;
+  margin-left: 10px;
+  width: 200px;
+  position: absolute;
+  border-width:2px;
+  border-style:solid;
+  border-color: #c63d39;
+  /*cursor:auto;*/
+}
+#lost{
+  width: 180px;
+  left: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #696fff;
+
+
+}
 
 #navimg1{
 
@@ -38,10 +58,4 @@ footer {
   height: 30px;
   background: #1dff31;
   text-align: center;
-}
-nav{
-  margin-top: 10px;
-  position: absolute;
-  width:200px;
-  /*cursor:auto;*/
 }
