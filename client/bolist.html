@@ -27,23 +27,22 @@
             {{/each}}
             </tbody>
         </table>
+        <div>
+        <button class="btn btn-info" id="Prev">Prev</button>
+        <button class="btn btn-primary" id="Next">Next</button>
+        <input type="text" name="search" id="inpSearch" placeholder="검색" >
+        <button id="btnSearch">검색</button>
+        </div>
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon3">제목</span>
-            <input type="text" class="form-control" id="제목" aria-describedby="basic-addon3">
+            <input type="text" class="form-control" id="제목" aria-describedby="basic-addon3" placeholder="제목">
+            <input type="text" id="작성자" placeholder="작성자" />
+            <button id="writes" class="btn btn-success">게시글 작성</button>
         </div>
         <div class="input-group">
             <span class="input-group-addon" id="basic-addon3">내용</span>
-            <input type="text" class="form-control" id="본문" aria-describedby="basic-addon3">
+            <input type="text" class="form-control" id="본문" aria-describedby="basic-addon3" placeholder="내용">
         </div>
-        <div class="center" style="text-align: center;">
-            <input type="text" id="작성자" placeholder="작성자"/>
-            <button id="writes" class="btn btn-success">게시글 작성</button>
-        </div><br>
-        <button class="btn btn-info" id="Prev">Prev</button>
-        <button class="btn btn-primary" id="Next">Next</button>
-
-        <input type="text" name="search" id="inpSearch"/>
-        <button id="btnSearch">검색</button>
-        <br><br><br><br>
     </div>
+    <br><br><br><br>
 </template>
