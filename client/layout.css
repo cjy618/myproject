@@ -7,7 +7,7 @@
 nav{
   margin-top: 10px;
   margin-left: 10px;
-  width: 200px;
+  width: 180px;
   position: absolute;
   border-width:2px;
   border-style:solid;
@@ -27,7 +27,7 @@ nav{
 
 #navimg1{
 
-  width: 180px;
+  width: 170px;
   left: 10px;
   height: 100px;
   background-image: url("http://cafefiles.naver.net/20160107_149/27960092_1452137984549_oNGjI4_jpg/27960092_user_123944.jpg");
@@ -36,7 +36,7 @@ nav{
 
 #navimg2{
 
-  width: 180px;
+  width: 170px;
   left: 10px;
   height: 100px;
   /*background-image: url("images/inven.jpg");*/

@@ -1,0 +1,24 @@
+<template name="LogIn">
+    <head>
+        <title>Javascript Login Form Validation</title>
+        <!-- Include CSS File Here -->
+        <link rel="stylesheet" href="css/style.css"/>
+        <!-- Include JS File Here -->
+        <script src="js/login.js"></script>
+    </head>
+    <body>
+    <div class="container">
+        <div class="main">
+            <form id="form_id" method="post" name="myform">
+                <label>User Name :</label>
+                <input type="text" name="username" id="username"/>
+                <label>Password :</label>
+                <input type="password" name="password" id="password"/>
+                <input type="button" value="로그인" id="submit" onclick="validate()"/>
+                <br>
+                <input type="button" value="회원가입" id="submit" onclick="validate()"/>
+            </form>
+        </div>
+    </div>
+    </body>
+</template>
